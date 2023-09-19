@@ -1,42 +1,67 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
+@import "bootstrap/dist/css/bootstrap.css";
+
+.header {
   text-align: center;
 }
-
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
+.header .KG-title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 44px;
+  line-height: 150%;
+  color: #284265;
 }
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+.header .sub {
+  color: #313131;
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.search-container .search .input-search {
+  width: 100%;
+  max-width: 1184px;
+  padding: 16px;
+  margin: 0 auto;
+}
+.cover {
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+col {
+  margin-bottom: 1rem;
+}
+.card-blog {
+  margin-top: 1rem;
+  border-radius: 1rem;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-.card {
-  padding: 2em;
+.blog-title {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 150%;
+  color: #274266;
 }
 
-.read-the-docs {
-  color: #888;
+.blog-text,
+span {
+  font-weight: 400;
+  font-size: 16px;
+  color: #8e8e93;
+  cursor: pointer;
+}
+span {
+  font-size: 14px;
+}
+.blog-author {
+  color: #313131;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 150%;
+  max-height: 25px;
+  height: 100%;
+}
+.blog-footer {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 150%;
+  color: #95b839;
 }
